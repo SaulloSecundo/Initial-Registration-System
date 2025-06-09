@@ -22,7 +22,7 @@ void Funcionario::setId(int id){
     if(id < 0){
         this->id = id*(-1);
     }else{
-        this->id;
+        this->id = id;
     }
 }
 //retorna o atributo "nome" dos objetos intanciados das classes derivadas da classe Funcionario
